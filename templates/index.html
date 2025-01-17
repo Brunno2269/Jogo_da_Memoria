@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Memória</h1>
+        <div class="controls">
+            <label for="difficulty">Dificuldade:</label>
+            <select id="difficulty">
+                <option value="easy">Fácil (4x4)</option>
+                <option value="medium">Médio (6x6)</option>
+                <option value="hard">Difícil (8x8)</option>
+            </select>
+            <br>
+            <br>
+            <button id="start-button">Iniciar Jogo</button>
+        </div>
+        <div class="stats">
+            <p>Movimentos: <span id="move-counter">0</span></p>
+            <p>Tempo: <span id="timer">0</span>s</p>
+        </div>
+        <div id="game-board"></div>
+        <div id="win-message"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
