@@ -1,3 +1,6 @@
+![Captura de tela de 2025-01-17 13-28-30](https://github.com/user-attachments/assets/9df85fac-991f-423e-8c97-3ccef2ee8bf3)
+![Captura de tela de 2025-01-17 13-29-54](https://github.com/user-attachments/assets/5a0f2333-28e1-4a1b-8055-caa27ae6600d)
+
 # Jogo da Memória
 
 Um jogo da memória desenvolvido em Python, HTML, CSS e JavaScript. O objetivo do jogo é encontrar todos os pares de cartas no menor tempo e com o menor número de movimentos possível.
